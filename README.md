@@ -1,10 +1,11 @@
-##### Preface:
+## Preface:
 I made this plugin to try to save time going through all the instructions in the SDK.
 This is a simple hello world plugin and all you literally should need to do is
 copy the IDAPRO SDK (You Received this from HexRays) to the project directory and rename it idasdk.
 open in visual studio and click build...
 
-###### Installation Instructions:
+## Installation Instructions:
+```
 1.
 - copy the IDASDK to the project directory .
 - rename the folder to idasdk.
@@ -18,8 +19,9 @@ open in visual studio and click build...
 
 4. Open Ida and click edit-> plugins->helloworld (name of our plugin)
 5. in the message out put console you will see helloworld from 32/64 bit.
+```
 
-##### Issues might arise:
+## Issues might arise:
 -  I have commented out **access_type_t** struct in hexrays.hpp because it is duplicated in idp.hpp.
 -  Versions might change . I have made this only for 7.5 and I am only supporting visual studio.
 -  the Hexrays.hpp I copied from the Hexrays site so if this changes you might want to update it occasionally.
@@ -27,11 +29,11 @@ open in visual studio and click build...
 - You can use **__EA64__** to define a 64 bit only portion of the binary. Ironically, this is all that separates 64 bit and 32 bit IDA API calls.
 
 
-#### Community:
+## Community:
 [Join our discord](https://discord.com/invite/wqKQcmK)
 
 
-##### Original Instructions From HexRays:
+## Original Instructions From HexRays:
 These probably wont be needed , but just in case. They come from the SDK itself and sort of show what was required to set this up.
 
 
